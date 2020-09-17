@@ -19,12 +19,16 @@ class CreditCard:
         self.n_list = [int(x) for x in self.word]
 
         for _, n in enumerate(self.n_list):
-            if self.n_list.index(n) % 2 == 0:
+            if self.n_list.index(n, _) % 2 == 0:
                 self.n_list[self.n_list.index(n, _)] = n * 2
         for _, n in enumerate(self.n_list):
             if n > 9:
                 self.n_list[self.n_list.index(n, _)] = n - 9
-        self.checksum = str(10 - sum(self.n_list) % 10)
+
+        if sum(self.n_list) % 10 == 0:
+            self.checksum = "0"
+        else:
+            self.checksum = str(10 - sum(self.n_list) % 10)
 
         self.card = self.word + self.checksum
         self.pin = str(randint(0000, 9999))
