@@ -1,6 +1,6 @@
-# Project Title
+# Simple Banking System
 
-[Difficulty] Completed Project From JetBrains Academy Python Developer Track
+[Medium] Completed Project From JetBrains Academy Python Developer Track
 
 [Project Link]()
 
