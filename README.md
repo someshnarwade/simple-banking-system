@@ -2,7 +2,7 @@
 
 [Medium] Completed Project From JetBrains Academy Python Developer Track
 
-[https://github.com/someshnarwade/simple-banking-system]()
+[https://hyperskill.org/projects/109]()
 
 ## About
 A look and feel of banking system. In which a person can open account,check balance and many more banking tasks.
